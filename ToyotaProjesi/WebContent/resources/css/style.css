@@ -1,0 +1,94 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #838282;
+	background-color:ghostwhite;
+}
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+				/* HEADER */
+.header{
+	background-color: #fff;
+	border: 1px solid #e4e4e4;
+	color: #949494;
+	font-size: 12px;
+	height: 40px;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	padding: 0 15px;
+	text-align: right;
+}
+.header-logo {
+  float: left;
+  margin-right: 10px;
+  padding-bottom:5px;
+  padding: 5px 5px;
+}
+				/* GIRIS BUTONU */
+.girisButonu {
+ border-left: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  color: #949494;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 15px;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.girisButonu:focus,
+.girisButonu:hover{
+	background-color:aquamarine;
+	text-decoration: none;
+	outline: none;
+}
+				/* ANASAYFA */
+.anasayfaMenu {
+  border: 2px solid #e4e4e4;
+  display: block;
+  float: left;
+  margin-top: 65px;
+  padding: 10px;
+  padding-bottom: 50px;
+  position: relative;
+  text-align: center;
+  width: 100%; 
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color:white;
+  cursor:pointer
+}
+.anasayfaMenu:hover{
+	 -webkit-box-shadow: 0 8px 6px -6px #000;
+	 -moz-box-shadow: 0 8px 6px -6px #000;
+	 box-shadow: 0 8px 6px -6px #000;
+	 border: 2px solid aquamarine;
+}
+.anasayfaMenuBaslik {
+  display: inline;
+  float: left;
+  padding: 25px 0 15px;
+  width: 100%;
+}
+.anasayfaMenuBaslik p {
+  color: #222;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+				/* FOOTER */
+#footer{
+  background-color: #fff;
+  border: 1px solid #e4e4e4;
+  float: left;
+  padding: 10px 0;
+  width: 100%;
+  margin-top: 280px;
+}
